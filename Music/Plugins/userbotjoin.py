@@ -3,7 +3,7 @@ from Music import client as USER
 from Music import BOT_USERNAME
 from Music.config import OWNER_ID
 from Music import ASSNAME, ASSUSERNAME
-from Music.MusicUtilities.helpers.decorate import authorized_users_only, sudo_users_only, errors
+from Music.MusicUtilities.helpers.decorators import authorized_users_only, sudo_users_only, errors
 from Music.MusicUtilities.helpers.filters import command
 from pyrogram import Client, filters
 from pyrogram.errors import UserAlreadyParticipant
