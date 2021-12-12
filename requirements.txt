@@ -25,7 +25,7 @@ pyromod
 requests
 speedtest-cli
 uvloop
-git+https://github.com/Sorrybabe/downloaderpymongo[srv]
+git+https://github.com/denvilxe/yt-dl@master
 telegraph
 hachoir
 lyricsgenius
